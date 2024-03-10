@@ -14,5 +14,3 @@ chat = gr.ChatInterface(
     clear_btn="Очистить",
 )
 
-if __name__ == "__main__":
-    chat.queue().launch()
