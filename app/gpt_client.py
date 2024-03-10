@@ -5,7 +5,7 @@ from g4f.client import Client
 from g4f.Provider import FreeChatgpt, Aura, GeminiProChat, Koala, You, Liaobots
 from g4f.errors import RateLimitError, ProviderNotWorkingError
 
-from logger_config import setup_logger
+from app.logger_config import setup_logger
 
 load_dotenv()
 logger = setup_logger()

@@ -1,6 +1,6 @@
 import gradio as gr
 
-from gpt_client import ask_gpt
+from app.gpt_client import ask_gpt
 
 chat = gr.ChatInterface(
     ask_gpt,
